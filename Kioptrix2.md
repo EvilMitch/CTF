@@ -21,3 +21,9 @@ How to complete
 
 # Priveledge Escalation
 
+
+
+
+
+### Disclaimer
+These notes are for my own learning process.
