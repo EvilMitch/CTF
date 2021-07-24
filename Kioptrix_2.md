@@ -160,7 +160,7 @@ $ cat /etc/*elease
 CentOS release 4.5 (Final)
 ```
 
-
+# Privilege Escalation
 We can now use all of this information to look for exploits on Exploit-DB relating to this version of Linux. 
 
 Upon looking at https://www.exploit-db.com/exploits/9542 we can see that there is a valid exploit for CentOS 4.5. Take note of the EDB-ID and head back to your Kali terminal. Here you want to type in the following 
