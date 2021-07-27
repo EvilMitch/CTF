@@ -70,7 +70,7 @@ All 1000 scanned ports on 10.0.2.15 are closed
 Nmap done: 256 IP addresses (3 hosts up) scanned in 3.17 seconds
 ```
 
-Here we can do some deducting, 10.0.2.1 only has Port 53 open, which isn't overly useful. 10.0.2.4 is looking much better, as it appears to be hosting something due to Port 443 (HTTPS) being open, which indicates to me that there is a Website running on it. It also has Port 3306 (MySQL) which is vulnerable to SQLI exploits, so it'll be good to test this out. 
+Here we can do some deducting, 10.0.2.1 only has Port 53 open, which isn't overly useful. 10.0.2.4 is looking much better, as it appears to be hosting something due to Port 80 (HTTP) being open, which indicates to me that there is a website running on it. It also has Port 3306 (MySQL) which is vulnerable to SQLI exploits, so it'll be good to test this out. 
 ```
 10.0.2.4/index.php
 ```
