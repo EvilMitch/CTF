@@ -4,7 +4,7 @@ Gain Root access to a CentOS box.
 # Helpful Information (Post Completion) -
 - Kali IP : 10.0.2.15
 - CentOS IP : 10.0.2.4
-Commands are identified by $ at the beggining
+- Commands are identified by $ at the beggining
 --- --- --- 
 
 # Kioptrix 2 
